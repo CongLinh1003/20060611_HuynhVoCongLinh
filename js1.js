@@ -57,4 +57,14 @@ Koalas = [88, 0, 110]
 
 whoWin(Dolphins, Koalas)
 
+//Coding Challenge #4
 
+const tips = billValue => {
+    return billValue>50 && billValue<=300? billValue*0.15 : billValue*0.2
+}
+
+const tipResult = billValue => {
+    console.log(`The bill was ${billValue}, the tip was ${tips(billValue)}, and the total value ${billValue + tips(billValue)}`);
+}
+
+tipResult(275)
