@@ -49,7 +49,7 @@ const whoWin = (arrayA, arrayB) => {
     if (a > b && validTest(arrayA)) { console.log(`Team Dolphins ${(arrayA)} win with the average ${a}!!`) }
     else if (b > a && validTest(arrayB)) { console.log(`Team Koalas ${(arrayB)} win with the average ${b}!!`) }
     else if (a == b && validTest(arrayA) && validTest(arrayB)) { console.log(`It's a Drawwwww!!`) }
-    else console.log(`It's a not valid win!!`);
+    else console.log(`No one win!`);
 }
 
 Dolphins = [96, 90, 89]
