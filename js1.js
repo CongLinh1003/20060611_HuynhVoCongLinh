@@ -103,12 +103,17 @@ bills.forEach(value => {
 });
 console.log("The TotalArray: "+totalBills);
 
-//Coding Challenge #6
+//Coding Challenge #7
 
-const person = {
+const persons = [
     {
         fullname: 'Mark Miller',
-        'height':  1.78,
-        'mass': 70
+        heightP: 1.78,
+        massP: 70
+    },
+    {
+        fullname: 'John Smith',
+        heightP: 1.75,
+        massP: 75
     }
-}
+];
